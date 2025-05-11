@@ -10,7 +10,7 @@ Implements:
 5. **Interactive demos** in `app.py` / `app2.py` and a notebook (`Code.ipynb`)  
 
 ## 📁 Repository Structure
-.
+```
 ├── Code.ipynb
 ├── app.py                  # Flask demo: generate & display synthetic CT
 ├── app2.py                 # Alternative Flask UI (batch sampling)
@@ -25,11 +25,11 @@ Implements:
 │       └── …
 ├── requirements.txt
 └── README.md
-
+```
 ## 🛠️ Requirements
 
 Tested on CPU; GPU optional.
-
+```python
 torch>=1.12.0
 torchvision>=0.13.0
 basicsr>=1.3.4
@@ -39,14 +39,14 @@ scikit-image>=0.19.0
 matplotlib>=3.4.3
 Pillow>=9.0.1
 flask>=2.0
-
+```
 ## ⚙️ Configuration
 
 ### 1. Reference CT
 
 Choose one representative CT slice (clean, high-contrast) and place it in the repo root:
 
-![Ref Img](<Reference CT – 4.png>)
+![Ref Img](<Reference CT – 4.jpg>)
 
 This image is used for histogram matching.
 
