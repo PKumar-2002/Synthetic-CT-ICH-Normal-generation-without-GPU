@@ -99,7 +99,7 @@ wget https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2/RealESRGAN_
    ```
 2. Open the generated link in your browser.
 
-![Streamlit Img](<Screenshot-streamlit.jpg>)
+![Streamlit Img](<Screenshot-streamlit.png>)
 
 3. Click **“Generate”** to sample a batch of synthetic CT slices.
 4. The app will run the full pipeline (GAN→post-proc→SR) on CPU.
