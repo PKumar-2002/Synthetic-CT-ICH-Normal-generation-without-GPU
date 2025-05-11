@@ -46,8 +46,7 @@ flask>=2.0
 
 Choose one representative CT slice (clean, high-contrast) and place it in the repo root:
 
-![Ref Img](<Reference CT – 4.jpg>)
-
+![Ref Img](<Reference%20CT%20-%204.jpg>)
 This image is used for histogram matching.
 
 ### 2. Dataset
